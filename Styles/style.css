@@ -1,0 +1,115 @@
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bg {
+	background-color: lightblue;
+}
+
+header {
+	font-family: "brush script MT";
+	font-size: 72px;
+	text-align: center;
+}
+
+
+.img { 
+    height: 45px;
+    width: 3%;
+    background-color: powderblue;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+}
+
+.img2 { 
+    height: 45px;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+
+.img3 {
+	height: 45px;
+	position: absolute;
+    top: 10px;
+    right: 150px;
+
+}
+
+
+h2 { 
+	font-family: "palatino";
+	font-size: 18px;
+	text-align: center;
+	width: 100%;
+}
+
+h3 { 
+	font-family: "brush script MT";
+	font-size: 24px;
+	text-align: center;
+	width: 100%;
+}
+
+.img4 {
+	position: absolute;
+    bottom: 90px;
+    left: 50px
+}
+
+.img5 {
+	position: absolute;
+    bottom: 90px;
+    right: 50px
+}
+
+.pos1 {
+	position: absolute;
+    bottom: 70px;
+    right: 50px;
+}
+
+.pos2 {
+	position: absolute;
+    bottom: 70px;
+    left: 50px;
+}
+
+h2 {
+	font-family: "brush script MT";
+	font-size: 24px;
+	text-align: center;
+}
+
+#number {
+    color: black;
+    position: absolute;
+    right: 40px;
+    top: 60px;
+}
+
+.cartitems {
+    padding-left:;
+    position: absolute;
+    top: 10px;
+    right: 100px;
+}
+
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+
+
+
+/*table {
+    border-spacing: 50px;
+}*/

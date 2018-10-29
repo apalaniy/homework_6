@@ -1,0 +1,186 @@
+.img10 {
+	position: absolute;
+    bottom: 370px;
+    left: 595px;
+}
+
+.img11 { 
+    height: 45px;
+    width: 4.5%;
+    position: absolute;
+    bottom: 400px;
+    left: 505px;
+
+ }
+
+ .img12 { 
+    height: 45px;
+    width: 4.5%;
+    position: absolute;
+    bottom: 460px;
+    left: 505px;
+ }
+
+ .img13 { 
+    height: 45px;
+    width: 4.5%;
+    position: absolute;
+    bottom: 520px;
+    left: 505px;
+    border: 1px solid black;
+
+ }
+
+ .img13square { 
+    height: 45px;
+    width: 4.5%;
+    position: absolute;
+    bottom: 520px;
+    left: 505px;
+
+}
+
+ .img14 { 
+ 	height: 40px;
+    width: 8%;
+    position: absolute;
+    bottom: 445px;
+    right: 475px;
+
+ }
+
+
+h5 {
+	font-family: "brush script MT";
+	font-size: 24px;
+	position: absolute;
+	bottom: 515px;
+	left: 855px;
+
+}
+
+h6 {
+
+	font-family: "brush script MT";
+	font-size: 24px;
+	position: absolute;
+	bottom: 425px;
+	left: 855px;
+
+}
+
+h7 {
+
+	font-family: "brush script MT";
+	font-size: 24px;
+	position: absolute;
+	bottom: 410px;
+	left: 855px;
+
+}
+
+p {
+	font-family: "palatino";
+	font-size: 18px;
+	position: absolute;
+	bottom: 515px;
+	left: 855px;
+}
+
+.amount {
+    font-family: "brush script MT";
+    font-size: 24px;
+    position: absolute;
+    bottom: 555px;
+    left: 1000px; 
+}
+ .img15 { 
+ 	height: 50px;
+    width: 30%;
+    position: absolute;
+    bottom: 300px;
+    right: 485px;
+
+ }
+
+ .img16 { 
+     display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+ }
+
+  .quantity {
+    font-family: "brush script MT";
+    font-size: 24px;
+    position: absolute;
+    bottom: 555px;
+    left: 1000px; 
+
+}
+
+ .dropdown {
+    position: absolute;
+    font-family: "brush script MT";
+    font-size: 24px;
+    bottom: 475px;
+    left: 1000px;
+    display: inline-block;
+}
+
+.img17 { 
+ 	height: 20px;
+    width: 4%;
+    position: absolute;
+    bottom: 410px;
+    right: 525px;
+
+ }
+
+
+#bluebox {
+    background-color: lightblue ;
+    padding: 10px ;
+    border: 1px solid black ;
+    position: absolute;
+    top: 380px;
+    left: 885px;
+}
+
+#pinkbox2 {
+    background-color: lightpink ;
+    padding: 10px ;
+    border: 1px solid black ;
+    position: absolute;
+    top: 380px;
+    left: 885px;
+}
+
+#purplebox {
+    background-color: thistle ;
+    padding: 10px ;
+    border: 1px solid black ;
+    position: absolute;
+    top: 380px;
+    left: 915px;
+}
+
+#whitebox {
+    background-color: white ;
+    padding: 10px ;
+    border: 1px solid black ;
+    position: absolute;
+    top: 380px;
+    left: 855px;
+}
+
+#pinkbox {
+    background-color: lightpink;
+    padding: 10px ;
+    border: 1px solid black ;
+    position: absolute;
+    top: 380px;
+    left: 945px;
+}

@@ -1,0 +1,37 @@
+.img6 {
+	position: absolute;
+    bottom: 75px;
+    left: 300px
+}
+
+.img7 {
+	position: absolute;
+    bottom: 75px;
+    right: 300px
+}
+
+.img8 {
+	position: absolute;
+    bottom: 350px;
+    right: 300px;
+}
+
+.img9 {
+	position: absolute;
+    bottom: 350px;
+    left: 300px;
+}
+
+h4 {
+	font-family: "brush script MT";
+	font-size: 24px;
+	text-align: center;
+	width: 100% ;
+	position: absolute;
+	top: 70px;
+
+
+}
+
+
+
