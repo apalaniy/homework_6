@@ -17,8 +17,8 @@ function addtocart () {
 
         var obj = {'fill':fillType, 'quantity':quantityamount, 'pillowtype':type}
         console.log(cart, "is cart an array")
-        cart.push(obj)
-        localStorage.setItem("cart", JSON.stringify(cart));
+        //cart.push(obj)
+        //localStorage.setItem("cart", JSON.stringify(cart));
 
         var Duplicate_found = false
         var cart_item = 0 
@@ -78,17 +78,28 @@ function renderCart() {
             var row = '<tr>'+  
                       '<td>'+ "<img src=' " + name + " '/><span class='pillowName'>" + object.pillowtype + '</span></td>' + 
                       '<td>'+ object.fill + '</td>' + 
-                      '<td>'+ "<img src= 'minus.svg'/>" + object.quantity + "<img src= 'plus.svg'/>" + '</td>' + 
-                      '<td>'+ "$"+(object.quantity*20.00) + '</td>' +  
+                      '<td>'+ object.quantity + '</td>' + 
+                      '<td>'+ "$"+(object.quantity*20.00) + '</td>' + 
+                      '<td class = "delete">' + "<img src= 'delete-icn.svg'/>" + '</td>' + 
                       '</tr>';
-                $('#table').append(row);
-            }
+            $('#table').append(row);
+            $(row).data("item", object)
+    }
+    $(document).on('click', '.delete', remove)
 }
 
 
 function remove() {
-    amount1 = document.getElementById("quantity");
-    amount1 -= 1;
+    var row = this.parentNode
+    row.parentNode.removeChild(row);
+    var pillowName = row.id
+    console.log(object);
+    var cartString = localStorage.getItem("cart") 
+    var cart = JSON.parse(cartString);
+    var index = cart.indexOf(object)
+    console.log(index);
+    cart.splice(index, 1)
+    localStorage.setItem('cart', JSON.stringify(cart));
 }
 
 function loadData() {
@@ -100,7 +111,5 @@ function length(){
     console.log("am i getting length");
     document.getElementById("number").innerHTML=JSON.parse(localStorage.cart).length;
 } 
-
-
 
 
